@@ -228,7 +228,7 @@ nav.top-nav .menu a.highlight:active {
 }
 
 .section .left {
-  flex: 3 0 auto;
+  flex: 0 0 30%;
   justify-content: left;
   align-items: flex-start;
 }
