@@ -781,3 +781,10 @@ nav.top-nav .menu a.highlight:active {
     flex-direction: row;
   }
 }
+
+.venue ul {
+  line-height: 120%;
+}
+.venue li a {
+  font-weight: normal;
+}
