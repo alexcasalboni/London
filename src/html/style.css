@@ -230,7 +230,7 @@ nav.top-nav .menu a.highlight:active {
 .section .left {
   flex: 0 0 30%;
   justify-content: left;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .section .left .title {
