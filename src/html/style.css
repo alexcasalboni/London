@@ -28,6 +28,11 @@ h6 {
   align-items: center;
 }
 
+b {
+  color: #464541;
+  font-weight: 700;
+}
+
 h1 img,
 h2 img,
 h3 img,
