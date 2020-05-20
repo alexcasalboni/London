@@ -678,6 +678,10 @@ nav.top-nav .menu a.highlight:active {
     padding: 0;
   }
 
+  .heroContainer .heroTitle .mascotte {
+    display: none;
+  }
+
   .heroContainer .heroDate {
     border: 0;
   }
