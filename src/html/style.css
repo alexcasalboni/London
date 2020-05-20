@@ -4,7 +4,7 @@ body {
 
 * {
   font-family: "Work Sans", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   color: #13110c;
 }
 
@@ -135,10 +135,11 @@ nav.top-nav .menu a.highlight:active {
 }
 
 .button {
+  display: inline-flex;
   flex: 0 1;
   padding: 10px;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 500;
   border: solid 2px #19b1a3;
   background-color: white;
   color: #19b1a3;
