@@ -105,6 +105,7 @@ nav.top-nav .menu a {
   color: #13110c;
   border: solid 2px white;
   font-weight: 400;
+  margin-left: 5px;
 }
 
 nav.top-nav .menu a.active,
