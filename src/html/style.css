@@ -92,7 +92,6 @@ nav.top-nav .logoContainer .dates {
 }
 
 nav.top-nav .menu {
-  flex: 0.4;
   flex-wrap: nowrap;
   justify-content: space-around;
   align-items: center;
