@@ -96,7 +96,7 @@ Condividendo questa esperienza, analizzeremo l’architettura e l’organizzazio
     photoUrl: "danilo-poccia.jpg",
     title: "La gestione dei dati in un ambiente serverless",
     speaker: "Danilo Poccia",
-    abstract: ``,
+    abstract: `In questa sessione vedremo le differenti opzioni in termini di database e storage per il salvataggio di dati strutturati e non strutturati all’interno di una applicazione serverless. Le differenti soluzioni sono confrontate con un approfondimento particolare alla semplificazione di architetture event-driven.`,
     workshop: false
   }
 ];
