@@ -1,30 +1,37 @@
-<div class="section" style="border: 0;">
+<div class="section">
 
-  <div class="left">
+  <div class="left" style="flex-direction: column; align-items: flex-start;">
     <div class="title">
-      <h1>Tickets</h1>
+      <h1>Registrazione</h1>
     </div>
-    <div class="image"><img width="150" height="210" src="./Mascotte/unicorn_mascot.svg" /></div>
+
+    <div class="text">
+      <p>L'evento è completamente <strong>gratuito</strong>.<span class=" line-break no-mobile"></span>
+        </p>
+        <p>
+        Ti suggeriamo di registrati per ricevere via email gli ultimi aggiornamenti e il link al live stream:</p>
+
+          @@include('./_calendarButton.html')
+
+        <!--
+        <p><a class="button"
+          style="display: flex; flex: 0 0 250px; text-align: center; align-self: center; justify-content: center;"
+          href="/serverlessdays-italy.ics">📆 Aggiungi al calendario</a></p>-->
+    </div>
   </div>
 
-  <div class="text">
-    <p>Tickets will be available soon at €35, and the income will be donated to local no-profit organizations.</p>
-
-    <p>We believe in inclusiveness and diversity, and we are working hard with our Diversity Partners to welcome people from diverse backgrounds and to remove any financial barrier. <span class="line-break no-mobile"></span>
-      If you are part of an underrepresented group in tech, you can <a href="mailto:milan@serverlessdays.io" target="_blank">get in touch</a> to get a free ticket!
-    </p>
-
-    <p>You can also choose to buy a Diversity Sponsor Ticket and we'll donate it to a Diversity Scholar.</p>
-
+  <div class="text tickets">
+    <iframe
+      style="width:100%;height:900px"
+      src="https://docs.google.com/forms/d/e/1FAIpQLSf4rjn2a6ZzVavebHMUaq-A8s5a_XN6afAApdsfarDUpIhdjQ/viewform?embedded=true"
+      frameborder="0" marginheight="0" marginwidth="0">Caricamento...</iframe>
+      
     <p>
-      Can't see the Tickets frame below?
-      <a href="https://www.eventbrite.it/e/serverlessdays-milano-2020-tickets-86101547045#tickets" target="_blank">Buy a ticket here!</a>
+      Non vedi il form?
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSf4rjn2a6ZzVavebHMUaq-A8s5a_XN6afAApdsfarDUpIhdjQ/viewform"
+        target="_blank">aprilo in una nuova finestra</a>.
     </p>
-    
   </div>
-</div>
 
-<div class="ticketsFrame">
-  <iframe src="https://eventbrite.com/tickets-external?eid=86101547045&ref=etckt" frameborder="0" height="800" width="100%"
-    vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true" scrolling="no" onload="resizeIframe(this)"></iframe>
+</div>
 </div>

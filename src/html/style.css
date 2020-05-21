@@ -4,7 +4,7 @@ body {
 
 * {
   font-family: "Work Sans", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   color: #13110c;
 }
 
@@ -26,6 +26,11 @@ h6 {
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+b {
+  color: #464541;
+  font-weight: 700;
 }
 
 h1 img,
@@ -87,7 +92,6 @@ nav.top-nav .logoContainer .dates {
 }
 
 nav.top-nav .menu {
-  flex: 0.4;
   flex-wrap: nowrap;
   justify-content: space-around;
   align-items: center;
@@ -101,6 +105,7 @@ nav.top-nav .menu a {
   color: #13110c;
   border: solid 2px white;
   font-weight: 400;
+  margin-left: 5px;
 }
 
 nav.top-nav .menu a.active,
@@ -130,10 +135,11 @@ nav.top-nav .menu a.highlight:active {
 }
 
 .button {
+  display: inline-flex;
   flex: 0 1;
   padding: 10px;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 500;
   border: solid 2px #19b1a3;
   background-color: white;
   color: #19b1a3;
@@ -210,7 +216,7 @@ nav.top-nav .menu a.highlight:active {
 
 .heroTitle .title h1 {
   font-size: 3em;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .section {
@@ -223,9 +229,9 @@ nav.top-nav .menu a.highlight:active {
 }
 
 .section .left {
-  flex: 3 0 auto;
+  flex: 0 0 30%;
   justify-content: left;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .section .left .title {
@@ -398,7 +404,6 @@ nav.top-nav .menu a.highlight:active {
   justify-self: center;
   align-self: center;
   color: #7894d9;
-  font-weight: 600;
 }
 
 .section.speakers {
@@ -673,7 +678,7 @@ nav.top-nav .menu a.highlight:active {
     padding: 0;
   }
 
-  .heroContainer .heroTitle {
+  .heroContainer .heroTitle .mascotte {
     display: none;
   }
 
@@ -780,4 +785,11 @@ nav.top-nav .menu a.highlight:active {
   .section.footer .row.mascotte {
     flex-direction: row;
   }
+}
+
+.venue ul {
+  line-height: 200%;
+}
+.venue li a {
+  font-weight: normal;
 }

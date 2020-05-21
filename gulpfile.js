@@ -49,6 +49,7 @@ gulp.task("copy", function() {
       "src/*.xml",
       "src/*.txt",
       "src/*.pdf",
+      "src/*.ics",
       "src/html/*.css",
       "src/imgs/**",
     ])
