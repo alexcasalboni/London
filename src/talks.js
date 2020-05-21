@@ -3,7 +3,7 @@ module.exports = [
     key: "simon-wardley",
     bio: ``,
     photoUrl: "simon-wardley.jpg",
-    title: "What the fuss about serverless",
+    title: "Why the fuss about serverless",
     speaker: "Simon Wardley",
     abstract: `We live in a competitive world. That competition forces change. It has always forced change. Change is normal. The question is not whether our organizations will change, that’s a given, but can we see this change before it hits us, do we know where we’re heading or are we simply floating aimlessly being carried by a river? It certainly feels that way sometimes. To answer the question, we need to understand our landscape, the economic forces at play, the context we operate within and our situational awareness of this. Can we navigate the waters, can we see a storm coming or are we being battered by rocks because we refuse to look?
     
