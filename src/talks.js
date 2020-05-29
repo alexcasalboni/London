@@ -100,5 +100,14 @@ Condividendo questa esperienza, analizzeremo l’architettura e l’organizzazio
     speaker: "Danilo Poccia - Chief Evangelist @ AWS",
     abstract: `In questa sessione vedremo le differenti opzioni in termini di database e storage per il salvataggio di dati strutturati e non strutturati all’interno di una applicazione serverless. Le differenti soluzioni sono confrontate con un approfondimento particolare alla semplificazione di architetture event-driven.`,
     workshop: false
-  }
+  },
+  {
+    key: "paola-annis",
+    bio: ``,
+    photoUrl: "paola-annis.jpg",
+    title: "The green impact of serverless",
+    speaker: "Paola Annis - Cloud Solutions Architect @ Microsoft",
+    abstract: `In questo talk parleremo di "ingegneria sostenibile", con un focus sulla sostenibilità di architetture serverless, come un modo di avere un maggior impatto, tramite applicazione cloud native, sulle emissioni di CO2.`,
+    workshop: false
+  },
 ];
