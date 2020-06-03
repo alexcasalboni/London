@@ -812,6 +812,7 @@ nav.top-nav .menu a.highlight:active {
 }
 
 .agenda table td.time {
+  width: 100px;
   font-weight: bold;
   font-size: large;
 }
