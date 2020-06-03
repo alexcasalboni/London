@@ -794,15 +794,6 @@ nav.top-nav .menu a.highlight:active {
   font-weight: normal;
 }
 
-.talk-add-to-calendar {
-  font-size: small;
-  text-decoration: none;
-  cursor: pointer;
-  font-style: normal;
-  font-weight: normal;
-  color: white;
-}
-
 .talk > span, .keynote > span {
   font-weight: bold;
 }
@@ -824,7 +815,26 @@ nav.top-nav .menu a.highlight:active {
   font-weight: bold;
   font-size: large;
 }
-.agenda table td a {
-  text-decoration: underline;
+.agenda table td.title {
+  color: #cc171a;
+}
+.agenda table td.title span {
+  font-weight: normal;
+  font-size: smaller;
+}
+.agenda table td.description {
+  max-width: 30%;
+}
+
+.agenda table tr td a {
   cursor: pointer;
+  font-size: small;
+  text-decoration: none;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: normal;
+}
+.agenda table tr td.title a {
+  text-decoration: underline;
+  font-weight: normal;
 }
