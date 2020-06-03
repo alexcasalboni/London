@@ -793,3 +793,64 @@ nav.top-nav .menu a.highlight:active {
 .venue li a {
   font-weight: normal;
 }
+
+.talk > span, .keynote > span {
+  font-weight: bold;
+}
+
+.agenda table {
+  font-family: "Work Sans", sans-serif;
+  border: 0;
+}
+.agenda table tr {
+  border: 0;
+  margin: 5px 0;
+}
+.agenda table td {
+  border: 0;
+  padding: 5px;
+}
+
+.agenda table td.time {
+  width: 100px;
+  font-weight: bold;
+  font-size: large;
+}
+.agenda table td.title {
+  width: 300px;
+}
+.agenda table td.title > * {
+  color: #cc171a;
+}
+.agenda table td.title a {
+  color: #cc171a;
+  font-weight: bold;
+  font-size: large;
+}
+.agenda table td.title span {
+  font-weight: normal;
+  font-size: small;
+}
+.agenda table td.description {
+  width: 400px;
+}
+.agenda table tr td a.talk-add-to-calendar {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 8px;
+  text-align: right;
+  box-shadow: 0 0 0 0.5px rgba(50,50,93,.17), 0 2px 5px 0 rgba(50,50,93,.1), 0 1px 1.5px 0 rgba(0,0,0,.07), 0 1px 2px 0 rgba(0,0,0,.08), 0 0 0 0 transparent !important;
+}
+.agenda table tr td a {
+  cursor: pointer;
+  font-size: small;
+  text-decoration: none;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: normal;
+}
+
+a.external::before {
+  content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
+  margin: 0 5px 0 3px;
+}

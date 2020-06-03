@@ -1,22 +1,50 @@
-<div class="heroTitle">
+<div class="heroTitle" style="height:600px;width:100%;max-width:1300px;margin:auto;">
 
+  <!--
   <div class="mascotte">
     <div><img class="" width="130" height="183" src="./Mascotte/Anteater_mascot.svg"></div>
     <div><img class="" width="130" height="183" src="./Mascotte/octo_mascot.svg"></div>
+  </div>-->
 
-  </div>
+  <div class="title" style="height:100%;width:100%;">
 
-  <div class="title">
+
+
+    <!-- Add a placeholder for the Twitch embed -->
+    <div id="twitch-embed" class="no-mobile" style="height:100%;width:100%;"></div>
+
+    <!-- Load the Twitch embed script -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: '100%',
+        height: '100%',
+        channel: "serverlessitaly",
+        parent: ["milan.serverlessdays.io", "italy.serverlessdays.io", "serverlessdays.io"]
+      });
+    </script>
+
+    <p style="margin-top: 20px;">
+      <a target="_blank" style="background: white; display: inline-block; text-decoration:none; padding: 10px; color: #cc171a;	border: solid 2px #cc171a; font-weight: 700;" class="external" href="https://twitch.tv/serverlessitaly">Live Stream</a>
+      <a target="_blank"
+        style="background: white; display: inline-block; padding-left: 10px; text-decoration:none; padding: 10px; color: #cc171a;	border: solid 2px #cc171a; font-weight: 700;"
+        class="external" href="https://discord.gg/aEga7VR">Live Chat</a>
+    </p>
+    
+    <!--
     <div><img class="" width="130" height="183" src="./Mascotte/owl_mascot.svg"></div>
     <h1 style="display: flex; flex-direction: column;">
       <b>4 giugno 2020</b><b style="color: #cc171a">in live streaming</b><br /><b>dalle 9:45 alle 17</b>
     </h1>
     <div><img class="" width="130" height="183" src="./Mascotte/unicorn_mascot.svg"></div>
+    -->
   </div>
 
+  <!--
   <div class="mascotte">
     <div><img class="" width="130" height="183" src="./Mascotte/Moth_mascot.svg"></div>
     <div><img class="" width="130" height="183" src="./Mascotte/Dino_mascot.svg"></div>
   </div>
+-->
 
 </div>
