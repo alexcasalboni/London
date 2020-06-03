@@ -817,16 +817,20 @@ nav.top-nav .menu a.highlight:active {
   font-size: large;
 }
 .agenda table td.title {
+  width: 300px;
+}
+.agenda table td.title > * {
   color: #cc171a;
 }
 .agenda table td.title span {
   font-weight: normal;
-  font-size: smaller;
 }
 .agenda table td.description {
-  max-width: 30%;
+  width: 400px;
 }
-
+.agenda table td:last-child {
+  text-align: right;
+}
 .agenda table tr td a {
   cursor: pointer;
   font-size: small;
