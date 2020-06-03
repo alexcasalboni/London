@@ -793,3 +793,9 @@ nav.top-nav .menu a.highlight:active {
 .venue li a {
   font-weight: normal;
 }
+
+.talk-add-to-calendar {
+  font-size: small;
+  text-decoration: underline;
+  cursor: pointer;
+}
