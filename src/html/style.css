@@ -822,7 +822,12 @@ nav.top-nav .menu a.highlight:active {
 .agenda table td.title > * {
   color: #cc171a;
 }
+.agenda table td.title a {
+  color: #cc171a;
+  font-weight: bold;
+}
 .agenda table td.title span {
+  color: #cc171a;
   font-weight: normal;
 }
 .agenda table td.description {
