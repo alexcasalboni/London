@@ -806,3 +806,25 @@ nav.top-nav .menu a.highlight:active {
 .talk > span, .keynote > span {
   font-weight: bold;
 }
+
+.agenda table {
+  font-family: "Work Sans", sans-serif;
+  border: 0;
+}
+.agenda table tr {
+  border: 0;
+  margin: 5px 0;
+}
+.agenda table td {
+  border: 0;
+  padding: 5px;
+}
+
+.agenda table td.time {
+  font-weight: bold;
+  font-size: large;
+}
+.agenda table td a {
+  text-decoration: underline;
+  cursor: pointer;
+}
