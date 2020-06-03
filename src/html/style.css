@@ -825,16 +825,21 @@ nav.top-nav .menu a.highlight:active {
 .agenda table td.title a {
   color: #cc171a;
   font-weight: bold;
+  font-size: large;
 }
 .agenda table td.title span {
-  color: #cc171a;
   font-weight: normal;
+  font-size: small;
 }
 .agenda table td.description {
   width: 400px;
 }
-.agenda table td:last-child {
+.agenda table tr td a.talk-add-to-calendar {
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 5px;
   text-align: right;
+  box-shadow: 0 0 0 0.5px rgba(50,50,93,.17), 0 2px 5px 0 rgba(50,50,93,.1), 0 1px 1.5px 0 rgba(0,0,0,.07), 0 1px 2px 0 rgba(0,0,0,.08), 0 0 0 0 transparent !important;
 }
 .agenda table tr td a {
   cursor: pointer;
@@ -842,9 +847,5 @@ nav.top-nav .menu a.highlight:active {
   text-decoration: none;
   cursor: pointer;
   font-style: normal;
-  font-weight: normal;
-}
-.agenda table tr td.title a {
-  text-decoration: underline;
   font-weight: normal;
 }
