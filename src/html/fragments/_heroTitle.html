@@ -7,11 +7,28 @@
   </div>
 
   <div class="title">
+
+    <!-- Add a placeholder for the Twitch embed -->
+    <div id="twitch-embed"></div>
+
+    <!-- Load the Twitch embed script -->
+    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+    <script type="text/javascript">
+      new Twitch.Embed("twitch-embed", {
+        width: 1100,
+        height: 600,
+        channel: "serverlessitaly",
+        parent: ["milan.serverlessdays.io", "italy.serverlessdays.io", "serverlessdays.io"]
+      });
+    </script>
+
+    <!--
     <div><img class="" width="130" height="183" src="./Mascotte/owl_mascot.svg"></div>
     <h1 style="display: flex; flex-direction: column;">
       <b>4 giugno 2020</b><b style="color: #cc171a">in live streaming</b><br /><b>dalle 9:45 alle 17</b>
     </h1>
     <div><img class="" width="130" height="183" src="./Mascotte/unicorn_mascot.svg"></div>
+    -->
   </div>
 
   <div class="mascotte">
