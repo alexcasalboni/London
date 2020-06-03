@@ -796,6 +796,13 @@ nav.top-nav .menu a.highlight:active {
 
 .talk-add-to-calendar {
   font-size: small;
-  text-decoration: underline;
+  text-decoration: none;
   cursor: pointer;
+  font-style: normal;
+  font-weight: normal;
+  color: white;
+}
+
+.talk > span, .keynote > span {
+  font-weight: bold;
 }
